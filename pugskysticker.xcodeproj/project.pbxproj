@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E268E5D282C9E6900B23150 /* pugskysticker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E268E5C282C9E6900B23150 /* pugskysticker.plist */; };
-		2E268E5E282C9E6900B23150 /* pugskysticker.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E268E5C282C9E6900B23150 /* pugskysticker.plist */; };
 		2EC06F5D282A408300CBB9B4 /* pugskysticker StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2EC06F5C282A408300CBB9B4 /* pugskysticker StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2EC06F61282A408300CBB9B4 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2EC06F60282A408300CBB9B4 /* Stickers.xcstickers */; };
 		2EC06F62282A408300CBB9B4 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 2EC06F60282A408300CBB9B4 /* Stickers.xcstickers */; };
@@ -39,7 +37,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2E268E5C282C9E6900B23150 /* pugskysticker.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.entitlements; path = pugskysticker.plist; sourceTree = "<group>"; };
 		2EC06F58282A408300CBB9B4 /* pugskysticker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pugskysticker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC06F5C282A408300CBB9B4 /* pugskysticker StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "pugskysticker StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EC06F60282A408300CBB9B4 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "pugskysticker StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
@@ -49,7 +46,6 @@
 		2EC06F51282A408300CBB9B4 = {
 			isa = PBXGroup;
 			children = (
-				2E268E5C282C9E6900B23150 /* pugskysticker.plist */,
 				2EC06F60282A408300CBB9B4 /* Stickers.xcstickers */,
 				2EC06F59282A408300CBB9B4 /* Products */,
 			);
@@ -141,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC06F62282A408300CBB9B4 /* Stickers.xcstickers in Resources */,
-				2E268E5D282C9E6900B23150 /* pugskysticker.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EC06F61282A408300CBB9B4 /* Stickers.xcstickers in Resources */,
-				2E268E5E282C9E6900B23150 /* pugskysticker.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +311,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_ENTITLEMENTS = pugskysticker.plist;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 2878VNJAM4;
@@ -341,7 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CODE_SIGN_ENTITLEMENTS = pugskysticker.plist;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 2878VNJAM4;
